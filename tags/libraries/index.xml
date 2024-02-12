@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>libraries on Kfkq</title>
+    <link>https://kfkq.github.io/tags/libraries/</link>
+    <description>Recent content in libraries on Kfkq</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 12 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://kfkq.github.io/tags/libraries/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Collection of Useful Terms</title>
+      <link>https://kfkq.github.io/posts/collection_of_useful_terms/</link>
+      <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://kfkq.github.io/posts/collection_of_useful_terms/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt; : Definition, or explanation of many terms that I find useful. For example, list of all fallacies, bias, and mathematical terms.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
