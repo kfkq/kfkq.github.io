@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>mathematics on Kfkq</title>
+    <title>mathematics on Muhammad Gaffar</title>
     <link>https://kfkq.github.io/tags/mathematics/</link>
-    <description>Recent content in mathematics on Kfkq</description>
+    <description>Recent content in mathematics on Muhammad Gaffar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 23 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://kfkq.github.io/tags/mathematics/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <pubDate>Thu, 23 May 2024 00:00:00 +0000</pubDate>
       
       <guid>https://kfkq.github.io/posts/reading_taos_analysis_part_1/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt; : An Introduction to Book reading journey on Analysis I by Terence Tao.&lt;/p&gt;</description>
+      <description>An Introduction to Book reading journey on Analysis I by Terence Tao.</description>
     </item>
     
   </channel>

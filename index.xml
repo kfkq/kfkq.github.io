@@ -1,50 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Kfkq</title>
+    <title>Home on Muhammad Gaffar</title>
     <link>https://kfkq.github.io/</link>
-    <description>Recent content on Kfkq</description>
+    <description>Recent content in Home on Muhammad Gaffar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 18 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://kfkq.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Learning Arabic (Plural) Part 3</title>
-      <link>https://kfkq.github.io/posts/learning_arabic_part_3/</link>
-      <pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://kfkq.github.io/posts/learning_arabic_part_3/</guid>
-      <description>Abstract : My notes and short explanation on Plural (Copied from Textbook) + Solution to Exercise.
-Textbook used in this notes: An Introduction to the Arabic Language Through Islamic Texts Vol I.
-Most cases of plural In most cases, making plural in Arabic, you simply add a و and ن to get plural from singular, for example, from مُجْرِمٌ to مُجْرِمُوْنَ. If it is feminine, a noun with ة, to make its plural, remove the ة and add an ا and a ت, for example from غُرْفَةٌ to غُرُفَاتٌ.</description>
-    </item>
-    
-    <item>
-      <title>Learning Arabic (Mudaf and Mudaf Ilayhi) Part 2</title>
-      <link>https://kfkq.github.io/posts/learning_arabic_part_2/</link>
-      <pubDate>Sun, 16 Jun 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://kfkq.github.io/posts/learning_arabic_part_2/</guid>
-      <description>Abstract : My notes and short explanation on Mudaf and Mudaf Ilayhi (Copied from Textbook) + Solution to Exercise.
-Textbook used in this notes: An Introduction to the Arabic Language Through Islamic Texts Vol I.
-Construct and Genitive (الْمُضَافُ وَالْمُضَافُ أِلَيْهِ) In english you say &amp;ldquo;Name of the book&amp;rdquo;. In arabic the structure is the same way with few grammatical rules are involved. The construction is called as &amp;ldquo;mudaaf-mudaaf ilayhi&amp;rdquo;. The first noun ins called &amp;ldquo;mudaaf&amp;rdquo; (construct) and second, &amp;ldquo;mudaaf ilayhi&amp;rdquo; (Genitive).</description>
-    </item>
-    
-    <item>
-      <title>Learning Arabic (Marifah and Nakirah) Part 1</title>
-      <link>https://kfkq.github.io/posts/learning_arabic_part_1/</link>
-      <pubDate>Sun, 26 May 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://kfkq.github.io/posts/learning_arabic_part_1/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt; : My notes and short explanation on Marifah and Nakirah (Copied from Textbook) + Solution to Exercise.&lt;/p&gt;</description>
-    </item>
-    
+    <lastBuildDate>Thu, 23 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://kfkq.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Why Reading Tao&#39;s Analysis</title>
       <link>https://kfkq.github.io/posts/reading_taos_analysis_part_1/</link>
       <pubDate>Thu, 23 May 2024 00:00:00 +0000</pubDate>
       
       <guid>https://kfkq.github.io/posts/reading_taos_analysis_part_1/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt; : An Introduction to Book reading journey on Analysis I by Terence Tao.&lt;/p&gt;</description>
+      <description>An Introduction to Book reading journey on Analysis I by Terence Tao.</description>
     </item>
     
     <item>
@@ -53,25 +22,7 @@ Construct and Genitive (الْمُضَافُ وَالْمُضَافُ أِلَي
       <pubDate>Wed, 22 May 2024 00:00:00 +0000</pubDate>
       
       <guid>https://kfkq.github.io/posts/faith_is_not_blind_conformity/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: The modern phenomenon has already created stereotypes of what faith and religion are, often assumed to be blind conformity or merely following traditions that undermine reason. In fact, true faith only exists after certainty arises, and one cannot claim faith is valid without certainty, both in a rational and spiritual sense. Not many religions encourage knowledge, reason, and breaking away from authoritative traditions, but Islam does.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>It&#39;s all about dynamics</title>
-      <link>https://kfkq.github.io/posts/its_all_about_dynamics/</link>
-      <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://kfkq.github.io/posts/its_all_about_dynamics/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt; : Phenomena as we perceive it are dynamics in essence.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Collection of Useful Terms</title>
-      <link>https://kfkq.github.io/posts/collection_of_useful_terms/</link>
-      <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://kfkq.github.io/posts/collection_of_useful_terms/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt; : Definition, or explanation of many terms that I find useful.&lt;/p&gt;</description>
+      <description>Faith only makes sense after the use of reflection, reason, or spiritual certainty.</description>
     </item>
     
     <item>
@@ -80,7 +31,7 @@ Construct and Genitive (الْمُضَافُ وَالْمُضَافُ أِلَي
       <pubDate>Sun, 11 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>https://kfkq.github.io/posts/file-over-app_digital-philosophy/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt; : I move beyond digital apps when it comes notes taking and journaling, why? Because controlling raw resources file is important. File over app is a philosophy where you get to control all file with formats that easy to read over long period of time, no matter how developed technology is. My aim is to create a digital artifact on my works.&lt;/p&gt;</description>
+      <description>The philosophy that controlling files is much more important that relying in apps.</description>
     </item>
     
     <item>
@@ -89,70 +40,7 @@ Construct and Genitive (الْمُضَافُ وَالْمُضَافُ أِلَي
       <pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>https://kfkq.github.io/posts/the_importance_of_theory_of_knowledge/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt; : I express the importance of theory of knowledge (epistemology) as acquisition and justification of belief systems. This essay emphasizes the significance of epistemology as a foundational tool for understanding the limitations of knowledge, and how to navigate the abundance of information and knowledge in the modern world. Epistemological inquiry is path of humility, yet path to the truth.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>An Eternal Challenge</title>
-      <link>https://kfkq.github.io/books/an-eternal-challenge-by-muhammad-abdullah-draz/</link>
-      <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://kfkq.github.io/books/an-eternal-challenge-by-muhammad-abdullah-draz/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Formations of the Secular: Christianity, Islam, Modernity</title>
-      <link>https://kfkq.github.io/books/formations-of-the-secular_-christianity-islam-modernity-by-talal-asad/</link>
-      <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://kfkq.github.io/books/formations-of-the-secular_-christianity-islam-modernity-by-talal-asad/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Orientalism: Western Conceptions of the Orient</title>
-      <link>https://kfkq.github.io/books/orientalism_-western-conceptions-of-the-orient-by-edward-w.-said/</link>
-      <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://kfkq.github.io/books/orientalism_-western-conceptions-of-the-orient-by-edward-w.-said/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The Anatomy of Knowledge &amp; the Ontological Necessity of First Principle</title>
-      <link>https://kfkq.github.io/books/the-anatomy-of-knowledge-the-ontological-necessity-of-first-principle-by-generic-author/</link>
-      <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://kfkq.github.io/books/the-anatomy-of-knowledge-the-ontological-necessity-of-first-principle-by-generic-author/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The Autobiography of Malcolm X</title>
-      <link>https://kfkq.github.io/books/the-autobiography-of-malcolm-x-by-malcolm-x/</link>
-      <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://kfkq.github.io/books/the-autobiography-of-malcolm-x-by-malcolm-x/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The Impossible State: Islam, Politics, and Modernity’s Moral Predicament</title>
-      <link>https://kfkq.github.io/books/the-impossible-state_-islam-politics-and-modernitys-moral-predicament-by-wael-b.-hallaq/</link>
-      <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://kfkq.github.io/books/the-impossible-state_-islam-politics-and-modernitys-moral-predicament-by-wael-b.-hallaq/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The Rise and Triumph of the Modern Self: Cultural Amnesia, Expressive Individualism, and the Road to Sexual Revolution</title>
-      <link>https://kfkq.github.io/books/the-rise-and-triumph-of-the-modern-self-by-carl-r.-trueman/</link>
-      <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://kfkq.github.io/books/the-rise-and-triumph-of-the-modern-self-by-carl-r.-trueman/</guid>
-      <description></description>
+      <description>On why do we need to take a look about theory of knowledge</description>
     </item>
     
     <item>
