@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap">
+<link rel="icon" href="https://kfkq.github.io/favicon/favicon.ico" type="image/x-icon" />
+<title>Why Reading Tao&#39;s Analysis | Kfkq</title>
+
+
+
+
+
+
+
+<meta property="og:title" content="Why Reading Tao&#39;s Analysis" />
+<meta property="og:description" content="Review of Terence Tao&#39;s Analysis I: an Introduction" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://kfkq.github.io/posts/reading_taos_analysis_part_1/" />
+<meta property="og:image" content="https://kfkq.github.io/images/thumbnail.png"/>
+
+
+
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://kfkq.github.io/images/thumbnail.png"/>
+<meta name="twitter:title" content="Why Reading Tao&#39;s Analysis"/>
+<meta name="twitter:description" content="Review of Terence Tao&#39;s Analysis I: an Introduction"/>
+<meta name="twitter:site" content="@kfkqa"/>
+
+
+      <link rel="stylesheet" href="/css/main.min.d0e2165c3025be8bafce417d9bd8592b4b3597928eb8cab5f62dba4176a5f974.css" integrity="sha256-0OIWXDAlvouvzkF9m9hZK0s1l5KOuMq19i26QXal&#43;XQ=" crossorigin="anonymous">
+
+
+      <script src="/js/main.d03bb3ddb7b657d12a71a1ab9bfa6ecc65737ca4cacfe711debb27dc5d5ce204.js" integrity="sha256-0Duz3be2V9EqcaGrm/puzGVzfKTKz&#43;cR3rsn3F1c4gQ=" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+  <header>
+    <div class="header-symbol">
+      <a href="/"
+        >⇤</a
+      >
+    </div>
+  </header>
+  <main class="site-main">
+    
+  <div class="post-header">
+    <h1 class="post-title">Why Reading Tao&#39;s Analysis</h1>
+    <div class="post-subtitle"> 
+      
+      
+      
+        
+          
+          
+            
+          
+        
+          
+          
+            
+          
+        
+      
+      <p>May 23, 2024 &middot; <span class="word-count">1173 words</span> &middot; <span class="tags"><a href="/tags/book-reading">#book-reading</a> <a href="/tags/mathematics">#mathematics</a> </span></p>
+    </div>
+  </div>
+  
+  <div class="post-content">
+    <p><strong>Abstract</strong> : An Introduction to Book reading journey on Analysis I by Terence Tao.</p>
+<h3 id="why-choosing-this-book">Why choosing this book?</h3>
+<p>Most of us learn how to use, calculate, and operate numbers, but we don&rsquo;t know why we can use them the way we do. Asking &ldquo;why&rdquo; in mathematics is rare, even for physicists. To ask &ldquo;why&rdquo; is to understand when we can apply the knowledge properly. There are not many textbooks that can give you this proper understanding, but here I pick up Terence Tao&rsquo;s <em>Analysis I and II</em> (Fourth Edition), and it hooked me.</p>
+<p>So again, why bother? Pragmatically, one only needs to know how things work to solve problems. However, understanding the limitations of how to apply rules in mathematics is important. As Tao said,</p>
+<blockquote>
+<p>as you learn analysis you will develop an “analytical way of thinking”, which will help you whenever you come into contact with any new rules of mathematics, or when dealing with situations which are not quite covered by the standard rules. For instance, what if your functions are complex-valued instead of real-valued? What if you are working on the sphere instead of the plane? What if your functions are not continuous, but are instead things like square waves and delta functions? What if your functions, or limits of integration, or limits of summation, are occasionally infinite? You will develop a sense of why a rule in mathematics (e.g., the chain rule) works, how to adapt it to new situations, and what its limitations (if any) are; this will allow you to apply the mathematics you have already learnt more confidently and correctly.</p>
+</blockquote>
+<p>Here, I pick three examples of problems from the book where we can&rsquo;t arbitrarily apply operation in mathematics.</p>
+<ol>
+<li>
+<p>(Interchanging sums). Consider the following fact of arithmetic. Consider any matrix of numbers, e.g.,
+$$
+A = \begin{pmatrix}
+1 &amp; 2 &amp; 3 \\
+4 &amp; 5 &amp; 6 \\
+7 &amp; 8 &amp; 9
+\end{pmatrix}
+$$
+if you compute sums of all the rows and sums of all the columns, and then total all the row sums and total all the columns sums, you will get the same number equal to 45. To put it another way
+$$
+\sum_{i=1}^m\sum_{j=1}^n A_{ij} = \sum_{j=1}^n\sum_{i=1}^m A_{ij}.
+$$
+Now one might think that this rule should extend easily to infinite series:
+$$
+\sum_{i=1}^\infty\sum_{j=1}^\infty A_{ij} = \sum_{j=1}^\infty \sum_{i=1}^\infty A_{ij}.
+$$
+Indeed, if you use infinite series a lot in your work, you will find yourself having to switch summations like this fairly often. Another way of saying this fact is that in an infinite matrix, the sum of the row totals should equal the sum of the column totals. However, this statement is actually false! Here is a counterexample,
+$$
+\begin{pmatrix}
+1 &amp; 0 &amp; 0 &amp; 0 &amp; \cdots \\
+-1 &amp; 1 &amp; 0 &amp; 0 &amp;  \cdots \\
+0 &amp; -1 &amp; 1 &amp; 0 &amp; \cdots \\
+0 &amp; 0 &amp; -1 &amp; 1 &amp; \cdots \\
+0 &amp; 0 &amp; 0 &amp; -1 &amp;  \cdots \\
+\vdots &amp; \vdots &amp; \vdots &amp; \vdots  &amp; \ddots \\
+\end{pmatrix}.
+$$
+If you sum up all the rows, and then add up all the row totals, you get 1! but if you sum all the columns, and add up all the column totals, you get 0! So, does this mean that summations for infinite series should not be swapped and that any argument using such a swapping should be distrusted?</p>
+</li>
+<li>
+<p>(Interchanging limits) Consider the plausible looking statement
+$$
+\lim_{x \to 1^{-}} \lim_{n \to \infty} x^n = \lim_{n \to \infty} \lim_{x \to 1^{-}} x^n
+$$
+where the notation $x\to 1^{-}$ means that $x$ is approaching 1 from the left. When $x$ is to the left of $1$, then $\lim_{n\to \infty} x^n = 0$, and hence the left-hand side is zero. But we also have $\lim_{x\to 1^{-}} x^n = 1$ for all n, and so the right-hand side limit is 1. Does this demonstrate that this type of limit interchange is always untrustworthy?</p>
+</li>
+<li>
+<p>(Limits and lengths). When you learn about integration and how it relates to the area under a curve, you were probably presented with some picture in which the area under the curve was approximated by a bunch of rectangles, whose area was given by a Riemann sum, and then one somehow “took limits” to replace that Riemann sum with an integral, which then presumably matched the actual area under the curve. Perhaps a little later, you learnt how to compute the length of a curve by a similar method—approximate the curve by a bunch of line segments, compute the length of all the line segments, and then take limits again to see what you get. However, it should come as no surprise by now that this approach also can lead to nonsense if used incorrectly. Consider the right-angled triangle with vertices $(0, 0)$, $(1, 0)$, and $(0, 1)$, and suppose we wanted to compute the length of the hypotenuse of this triangle. Pythagoras’ theorem tells us that this hypotenuse has length $\sqrt{2}$, but suppose for some reason that we did not know about Pythagoras’ theorem, and wanted to compute the length using calculus methods. Well, one way to do so is to approximate the hypotenuse by horizontal and vertical edges. Pick a large number $N$ , and approximate the hypotenuse by a “staircase” consisting of $N$ horizontal edges of equal length, alternating with $N$ vertical edges of equal length. Clearly these edges all have length $1/N$ , so the total length of the staircase is $2N /N = 2$. If one takes limits as $N$ goes to infinity, the staircase clearly approaches the hypotenuse, and so in the limit we should get the length of the hypotenuse. However, as $N \to \infty$, the limit of $2N /N$ is $2$, not $\sqrt{2}$, so we have an incorrect value for the length of the hypotenuse. How did this happen?</p>
+</li>
+</ol>
+<p>From the problems above, we see that logical operations (or what we call math) cannot be applied arbitrarily as they are confined by limitations of use. Understanding these limitations means understanding definitions from the very beginning. Hence, we need to ask some very fundamental questions:</p>
+<ul>
+<li>What is a real number?</li>
+<li>Is there a largest real number?</li>
+<li>After 0, what is the “next” real number (i.e., what is the smallest positive real number)?</li>
+<li>How do you take the limit of a sequence of real numbers?</li>
+<li>Which sequences have limits and which ones don’t?</li>
+<li>If you can stop a sequence from escaping to infinity, does this mean that it must eventually settle down and converge?</li>
+<li>Can you add infinitely many real numbers together and still get a finite real number?</li>
+<li>What is a function?</li>
+<li>What does it mean for a function to be continuous? Differentiable? Integrable? Bounded?</li>
+<li>Can you add infinitely many functions together?</li>
+<li>What about taking limits of sequences of functions?</li>
+<li>Can you differentiate an infinite series of functions?</li>
+<li>What about integrating?</li>
+<li>and many others~</li>
+</ul>
+<p>These questions are crucial for a deeper understanding of mathematics and its proper application.</p>
+<p>Let&rsquo;s start the journey!</p>
+  </div>
+  <div id="disqus_thread"></div>
+<script>
+    
+
+    
+
+    (function() { 
+    
+    
+    if (window.location.hostname == "localhost")
+        return;
+
+    var d = document, 
+    s = d.createElement('script');
+    s.async = true;
+    var disqus_shortname = 'kfkq-github-io';
+    s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+  </main>
+  <footer>
+    
+  </footer>
+</body>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css" integrity="sha384-wcIxkf4k558AjM3Yz3BBFQUbk/zgIYC2R0QpeeYb+TwlBVMrlgLqwRjRtGZiK7ww" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.js" integrity="sha384-hIoBPJpTUs74ddyc4bFZSM1TVlQDA60VBbJS0oA934VSz82sBx1X7kSx2ATBDIyd" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/contrib/auto-render.min.js" integrity="sha384-43gviWU0YVjaDtb/GhzOouOXtZMP/7XUzwPTstBeZFe/+rCMvRwr4yROQP43s0Xk" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          
+          
+          delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+              {left: "\\begin{equation}", right: "\\end{equation}", display: true},
+              {left: '\\(', right: '\\)', display: false},
+              {left: '\\[', right: '\\]', display: true}
+          ],
+          
+          throwOnError : false
+        });
+    });
+</script>
+</html>
