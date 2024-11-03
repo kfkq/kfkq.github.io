@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://kfkq.github.io/sitemap.xml
